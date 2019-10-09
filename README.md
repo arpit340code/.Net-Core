@@ -18,3 +18,8 @@ Asked for Username and Password
 # .Net-Core
 .Net Core Learning
 
+
+# Links
+https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures
+
+
