@@ -1,0 +1,14 @@
+D:\Learning\.NET CORE\FirstProject\bin\Debug\netcoreapp2.2\FirstProject.deps.json
+D:\Learning\.NET CORE\FirstProject\bin\Debug\netcoreapp2.2\FirstProject.runtimeconfig.json
+D:\Learning\.NET CORE\FirstProject\bin\Debug\netcoreapp2.2\FirstProject.runtimeconfig.dev.json
+D:\Learning\.NET CORE\FirstProject\bin\Debug\netcoreapp2.2\FirstProject.dll
+D:\Learning\.NET CORE\FirstProject\bin\Debug\netcoreapp2.2\FirstProject.pdb
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.csprojAssemblyReference.cache
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.csproj.CoreCompileInputs.cache
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.RazorAssemblyInfo.cache
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.RazorAssemblyInfo.cs
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.AssemblyInfoInputs.cache
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.AssemblyInfo.cs
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.RazorTargetAssemblyInfo.cache
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.dll
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.pdb

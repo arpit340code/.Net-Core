@@ -1,0 +1,30 @@
+D:\Learning\.NET CORE\Source Code\bin\Debug\netcoreapp2.2\Source Code.deps.json
+D:\Learning\.NET CORE\Source Code\bin\Debug\netcoreapp2.2\Source Code.runtimeconfig.json
+D:\Learning\.NET CORE\Source Code\bin\Debug\netcoreapp2.2\Source Code.runtimeconfig.dev.json
+D:\Learning\.NET CORE\Source Code\bin\Debug\netcoreapp2.2\Source Code.dll
+D:\Learning\.NET CORE\Source Code\bin\Debug\netcoreapp2.2\Source Code.pdb
+D:\Learning\.NET CORE\Source Code\bin\Debug\netcoreapp2.2\Source Code.Views.dll
+D:\Learning\.NET CORE\Source Code\bin\Debug\netcoreapp2.2\Source Code.Views.pdb
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.csprojAssemblyReference.cache
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.csproj.CoreCompileInputs.cache
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.RazorAssemblyInfo.cache
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.RazorAssemblyInfo.cs
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.AssemblyInfoInputs.cache
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.AssemblyInfo.cs
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.TagHelpers.input.cache
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.TagHelpers.output.cache
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.RazorCoreGenerate.cache
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.RazorTargetAssemblyInfo.cache
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.RazorTargetAssemblyInfo.cs
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.Views.pdb
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.dll
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.pdb
+D:\Learning\.NET CORE\Source Code\obj\Debug\netcoreapp2.2\Source Code.csproj.CopyComplete
