@@ -14,6 +14,7 @@ namespace FirstProject
 {
     public class Startup
     {
+        //Added the configuration in project
        public IConfiguration Configuration {get;}
 
         public Startup(IConfiguration configuration)
@@ -34,8 +35,14 @@ namespace FirstProject
            
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                DeveloperExceptionPageOptions devExPage = new DeveloperExceptionPageOptions
+                {
+                SourceCodeLineCount = 10
+                };
+                app.UseDeveloperExceptionPage(devExPage);
             }
+
+            var hostingEnvName = env.EnvironmentName;
 
             app.Use(async (context,next) =>
             {
@@ -44,13 +51,22 @@ namespace FirstProject
                 Console.WriteLine("MW1 : Outgoing request");
             });
 
+            FileServerOptions fso = new FileServerOptions();
+            fso.DefaultFilesOptions.DefaultFileNames.Clear();
+            fso.DefaultFilesOptions.DefaultFileNames.Add("foo.html");
+
+            //this middleware will serve the foo.html page but when we browse another URL then exception is thrown
+            //app.UseFileServer(fso);
+
             app.Run(async (context) =>
             {
                  Console.WriteLine("MW2 : Incoming request");
 
+                //throw new Exception("Some raised exception");
+
                 string myConfig = Configuration["MyKey"];
                 string output = System.Diagnostics.Process.GetCurrentProcess().ProcessName;
-                await context.Response.WriteAsync("Hello World MW3 !" + output + " Configs : " + myConfig);
+                await context.Response.WriteAsync($"Hello World MW3 ! {output} Configs : {myConfig} Hosting Env {hostingEnvName}");
 
                 Console.WriteLine("MW2 : Request Processed");
             });
