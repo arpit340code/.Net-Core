@@ -26,6 +26,7 @@ namespace FirstProject
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
         }
 
 
@@ -51,12 +52,15 @@ namespace FirstProject
                 Console.WriteLine("MW1 : Outgoing request");
             });
 
+            app.UseStaticFiles();
+
             FileServerOptions fso = new FileServerOptions();
             fso.DefaultFilesOptions.DefaultFileNames.Clear();
             fso.DefaultFilesOptions.DefaultFileNames.Add("foo.html");
-
             //this middleware will serve the foo.html page but when we browse another URL then exception is thrown
             //app.UseFileServer(fso);
+
+            app.UseMvcWithDefaultRoute();
 
             app.Run(async (context) =>
             {
