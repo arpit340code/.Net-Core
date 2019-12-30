@@ -1,10 +1,20 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace FirstProject.Controllers
 {
-    public class HomeController
+    public class HomeController : Controller
     {
-        public string Index()
+        //If we do not inherit it from  Controller base class;
+        // public string Index()
+        // {
+        //     //return this.ToString();
+        //     //return "My First MVC Controller Action";
+        // }
+
+        //Used when we inherit from the Controller class
+        public JsonResult Index()
         {
-            return "My First MVC Controller Action";
+            return Json(new { id = 1, name = "Pragim" });
         }
     }
 }
