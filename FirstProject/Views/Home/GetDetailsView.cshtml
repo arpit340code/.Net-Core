@@ -1,0 +1,22 @@
+@using FirstProject.Models; 
+
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <h1>@ViewData["Title"]</h1>
+
+        <!--   -->
+        @{ 
+            var employee = ViewData["Empdata"] as Employee; 
+         }
+        <pr>
+            Employee Name : @employee.Id: @employee.Name </br>
+            Department : @employee.Department </br>
+            Other : @employee.Email</br>
+        </pr>
+    </body>
+
+</html>

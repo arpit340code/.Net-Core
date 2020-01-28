@@ -12,3 +12,14 @@ D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.Assembly
 D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.RazorTargetAssemblyInfo.cache
 D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.dll
 D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.pdb
+D:\Learning\.NET CORE\FirstProject\bin\Debug\netcoreapp2.2\FirstProject.Views.dll
+D:\Learning\.NET CORE\FirstProject\bin\Debug\netcoreapp2.2\FirstProject.Views.pdb
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.TagHelpers.input.cache
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.TagHelpers.output.cache
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.RazorCoreGenerate.cache
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\Razor\Views\Home\GetDetailsView.g.cshtml.cs
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.RazorTargetAssemblyInfo.cs
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.Views.pdb
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\FirstProject.csproj.CopyComplete
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\Razor\Views\Employee\TestEmployee.g.cshtml.cs
+D:\Learning\.NET CORE\FirstProject\obj\Debug\netcoreapp2.2\Razor\Views\Home\Test.g.cshtml.cs

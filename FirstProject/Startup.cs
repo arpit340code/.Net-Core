@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 //For Configurations
 using Microsoft.Extensions.Configuration;
+using FirstProject.Models;
 
 namespace FirstProject
 {
@@ -27,10 +28,11 @@ namespace FirstProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
-            services.AddMvcCore();
+            //services.AddMvcCore();
+            
+            //For adding the dependency for IEmployee
+            services.AddSingleton<IEmployeeRepository,MockEmployeeRepository>();
         }
-
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

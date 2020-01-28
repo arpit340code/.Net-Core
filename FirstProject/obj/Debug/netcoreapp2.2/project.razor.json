@@ -2959,6 +2959,22 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "FirstProject",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "d:\\Learning\\.NET CORE\\FirstProject\\Views\\Home\\Test.cshtml",
+      "TargetPath": "Views\\Home\\Test.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Learning\\.NET CORE\\FirstProject\\Views\\Employee\\TestEmployee.cshtml",
+      "TargetPath": "Views\\Employee\\TestEmployee.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Learning\\.NET CORE\\FirstProject\\Views\\Home\\GetDetailsView.cshtml",
+      "TargetPath": "Views\\Home\\GetDetailsView.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }
