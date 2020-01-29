@@ -28,7 +28,6 @@ namespace FirstProject.Controllers
         public JsonResult GetDetails()
         {
             var model = _empRepo.GetEmployee(1);
-
             return Json(model);
         }
 
@@ -38,14 +37,21 @@ namespace FirstProject.Controllers
             return new ObjectResult(model);
         }   
 
+        //Home/GetDetailsView
         public ViewResult GetDetailsView()
         {
             var model = _empRepo.GetEmployee(3);
+            var modelVB = _empRepo.GetEmployee(1);
+
+            var modelST = _empRepo.GetEmployee(2);
             
-            ViewData["Title"] = "Details Page 1";
+            ViewData["Title"] = "View Data Title";
             ViewData["Empdata"] = model;
 
-            return View(model);
+            ViewBag.TitleVB = "View Bag Title";
+            ViewBag.EmpdataVB = modelVB;
+
+            return View(modelST);
         }
 
         //Home/GetDetailsViewDiscovery
@@ -53,7 +59,6 @@ namespace FirstProject.Controllers
         {
             var model = _empRepo.GetEmployee(3);
             return View("TEST");
-
         }
 
         //Home/GetDetailsViewDiscoveryabsolute

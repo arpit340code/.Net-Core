@@ -1,5 +1,6 @@
 @using FirstProject.Models; 
 
+@model FirstProject.Models.Employee
 <html>
     <head>
         <title></title>
@@ -7,15 +8,32 @@
 
     <body>
         <h1>@ViewData["Title"]</h1>
+        <h1>@ViewBag.TitleVB</h1>
+
 
         <!--   -->
         @{ 
-            var employee = ViewData["Empdata"] as Employee; 
+            var employee = ViewData["Empdata"] as Employee;
+            var empVB = ViewBag.EmpdataVB as Employee; 
          }
         <pr>
             Employee Name : @employee.Id: @employee.Name </br>
             Department : @employee.Department </br>
             Other : @employee.Email</br>
+        </pr>
+        </br>
+        <pr>
+            Employee View Bag </br>
+            Employee Name : @empVB.Id: @empVB.Name </br>
+            Department : @empVB.Department </br>
+            Other : @empVB.Email</br>
+        </pr>
+        </br>
+         <pr>
+            Employee Strong type</br>
+            Employee Name : @Model.Id: @Model.Name </br>
+            Department : @Model.Department </br>
+            Other : @Model.Email</br>
         </pr>
     </body>
 
