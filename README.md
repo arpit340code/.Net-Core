@@ -33,6 +33,8 @@ Pushed the changes to the remote server (github)
 git remote -v
 Tells the repositoty in case of multiple repo
 
+
+
 Initialising the New Repository from your computer
 git init
 Intialise the repo
@@ -63,8 +65,6 @@ git remote -v
 
 git push origin master
 Pushes the files to the remote
-
-
 
 
 First get the code from repo or clone on local sysytem, then commit and push the code
