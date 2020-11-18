@@ -33,9 +33,8 @@ Pushed the changes to the remote server (github)
 git remote -v
 Tells the repositoty in case of multiple repo
 
-
-
 Initialising the New Repository from your computer
+
 git init
 Intialise the repo
 
@@ -66,20 +65,53 @@ git remote -v
 git push origin master
 Pushes the files to the remote
 
-
 First get the code from repo or clone on local sysytem, then commit and push the code
 git init
 git status
-git add -a     							//. for all the files
+git add -a     							
+//. for all the files
 git commit -a -m"new repository"
 git remote add origin https://github.com/arpit340/.Net-Core.git
 git pull origin master
 git push origin master
 
->git push origin master	        //master is my branch name
+>git push origin master	        
+//master is my branch name
 git config --global http.proxy http://arpit.jain:omomom%40123@192.168.55.118:8080
 git push -u origin –all					
 Asked for Username and Password
+
+Branch - 
+List all the git branches
+git branch
+
+add Branch
+git branch branchname
+
+Checkout on particular branch or work on the particular branch
+git checkout branchname
+
+Push changes to branch
+git push origin banchname
+
+To create branch except master then checkout that branch then check with
+git branch command for the checkout branch & then use the 
+
+Create new branch and checkout to that branch
+git checkout -b branchname
+
+Rename Branch
+git branch -m oldbranchname newbranchname
+
+Merge Branch from Master to Development or other branch etc
+Use the pull request from the github then merge the branch by specicifying the branch from where to merge and to which branch to merge
+or
+
+git merge branchname(from where the changes are to be merged or taken)
+E.g git merge master
+
+
+
 
 
 # .Net-Core
