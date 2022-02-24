@@ -121,4 +121,7 @@ E.g git merge master
 # Links
 https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures
 
+jChadwick - LinkedIn Learning
+https://github.com/jchadwick?tab=repositories
+
 
