@@ -62,6 +62,10 @@ Add/maps to the remote URL
 Check the Mapping or repository linked 
 git remote -v
 
+Set this for new Token access in github
+git remote set-url origin https://arpit340:<token>@github.com/arpit340/Learning.git
+  
+
 git push origin master
 Pushes the files to the remote
 
